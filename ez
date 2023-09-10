@@ -1,0 +1,26 @@
+local Library = loadstring(game: HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Test", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection: NewButton("Speed Farm", "Auto farms the speed at a HIGH speed", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/OfficialFilipplays/sA/main/sA"))()
+end)
+
+
+-- MAIN
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+
+PlayerSection: NewButton("Infinite Yield", "FE Admin", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+MainSection: NewButton("Auto Rebirth", "Rebirth", function()
+loadstring(game: HttpGet("https://raw.githubusercontent.com/OfficialFilipplays/rebirth/main/rebirth"))()
+end)
+
